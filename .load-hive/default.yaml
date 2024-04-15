@@ -1,0 +1,17 @@
+hive:
+  uuid: aafe4248-12f5-4782-9cb9-215c2bb35278
+  port: 8080
+  internal-api-port: 5555
+  target: http://10.20.42.93:9000/
+
+main:
+  ip: 10.20.42.232
+
+nodes:
+  - ip: 10.20.42.232
+  - ip: 10.20.42.106
+  - ip: 10.20.42.155
+  - ip: 10.20.42.83
+
+extra-hosts:
+  iup.main-chinauos.com: 10.20.42.93

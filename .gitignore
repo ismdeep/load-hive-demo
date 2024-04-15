@@ -1,0 +1,8 @@
+# JetBrains
+/.idea/
+
+# venv
+/venv/
+
+# macOS
+.DS_Store
